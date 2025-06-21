@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#historyList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#historyList li {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.status.pending { background: orange; color: white; }
+.status.accepted { background: green; color: white; }
+.status.rejected { background: red; color: white; }
+.status.completed { background: gray; color: white; }
+
+select {
+  margin-top: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  background: #4a90e2;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
