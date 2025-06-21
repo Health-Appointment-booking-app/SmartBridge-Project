@@ -1,181 +1,215 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
+/* customer-dashboard.css */
 
 body {
-  background-color: #f9f9f9;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1fbfc;
   color: #333;
-  padding: 20px;
 }
 
 /* Header */
 header {
+  background-color: #00acc1;
+  color: white;
+  padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0055a5;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 header h1 {
-  font-size: 1.5rem;
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 10px 0;
 }
 
 #logoutBtn {
-  background-color: #ff5252;
-  border: none;
+  background-color: #007b7f;
   color: white;
+  border: none;
   padding: 10px 16px;
   border-radius: 6px;
-  cursor: pointer;
   font-weight: bold;
-  transition: background 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 #logoutBtn:hover {
-  background-color: #e04141;
+  background-color: #005c63;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* Search Section */
 #searchDoctors {
   margin-bottom: 30px;
+  text-align: center;
 }
 
-#searchDoctors h2 {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-}
-
-#searchInput {
+#searchDoctors input {
   padding: 10px;
-  width: 60%;
-  max-width: 400px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
+  width: 250px;
+  max-width: 90%;
   border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
 }
 
-#searchBtn {
-  padding: 10px 20px;
-  background-color: #007bff;
+#searchDoctors button {
+  padding: 10px 15px;
+  background-color: #00acc1;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
 }
 
-#searchBtn:hover {
-  background-color: #0063cc;
+#searchDoctors button:hover {
+  background-color: #008b9a;
 }
 
-/* Doctor Cards */
+/* Doctor List */
 #doctorList {
   margin-bottom: 30px;
 }
 
 .doctor-cards-container {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 15px;
 }
 
 .doctor-card {
   background-color: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s;
-}
-
-.doctor-card:hover {
-  transform: translateY(-5px);
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .doctor-card h4 {
-  margin-bottom: 10px;
-  color: #007bff;
+  color: #007b7f;
+  margin: 0 0 10px;
 }
 
 .doctor-card p {
-  margin-bottom: 5px;
+  margin: 6px 0;
+  font-size: 0.95rem;
 }
 
 .bookBtn {
-  margin-top: 10px;
-  background-color: #28a745;
+  background-color: #00acc1;
   color: white;
-  padding: 8px 14px;
   border: none;
+  padding: 8px 14px;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: bold;
+  margin-top: 10px;
 }
 
 .bookBtn:hover {
-  background-color: #218838;
+  background-color: #008b9a;
 }
 
 /* Appointments */
-#upcomingAppointments h3 {
-  margin-bottom: 10px;
-}
-
-#appointmentsList {
+#upcomingAppointments ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin-top: 10px;
 }
 
-#appointmentsList li {
-  background-color: #ffffff;
-  padding: 12px 18px;
-  margin-bottom: 10px;
-  border-left: 5px solid #007bff;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-.status-tag {
-  padding: 2px 8px;
-  margin-left: 8px;
-  border-radius: 6px;
-  font-size: 12px;
-  text-transform: capitalize;
+#upcomingAppointments li {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.status-tag.pending { background: orange; color: white; }
-.status-tag.accepted { background: green; color: white; }
-.status-tag.rejected { background: red; color: white; }
-.status-tag.completed { background: gray; color: white; }
-.modal {
+/* Booking History Button */
+#historyBtn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #007b7f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#historyBtn:hover {
+  background-color: #005c63;
+}
+
+/* Popup & Modal */
+.popup, .modal {
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2000;
 }
 
-.modal-content {
-  background: white;
+.popup-content, .modal-content {
+  background-color: white;
   padding: 20px;
-  border-radius: 10px;
-  width: 300px;
-}
-#historyBtn {
-  background-color: #f39c12;
-  color: white;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-top: 15px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+#closePopup {
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content input,
+.modal-content button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  header {
+    padding: 15px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+    order: 1;
+    width: 100%;
+  }
+
+  #logoutBtn {
+    position: static;
+    margin: 10px auto 0;
+  }
+
+  #searchDoctors input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #searchDoctors button {
+    width: 100%;
+  }
+}
