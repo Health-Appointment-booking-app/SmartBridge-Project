@@ -6,7 +6,7 @@ DocSpot is a full-stack healthcare appointment booking platform designed to simp
 
 ## 🌐 Live Demo
 
-🚀 Coming Soon – Add your deployment link here
+🚀 [Visit Project Live Demo here..](https://docspot-7jfw.onrender.com/)
 
 ---
 
