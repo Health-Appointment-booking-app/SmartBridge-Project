@@ -123,11 +123,15 @@ Customers can:
 
 ## 🚀 Future Improvements
 
-- Appointment slot management
-- Notification system (SMS/Email)
-- Admin analytics dashboard
-- PDF summary for appointments
-- Chat or review system
+- 🗓️ Appointment Slot Management
+- 📩 Notification System (SMS/Email)
+- 📊 Admin Analytics Dashboard
+- 📄 PDF Summary for Appointments
+- 💬 Chat or Review System
+- 🔴 Real-time chat between doctor and patient  
+- 📲 Mobile App Integration using React Native  
+- 🧠 AI-based doctor recommendation engine  
+- 📆 Google Calendar sync for doctors
 
 ---
 
@@ -169,6 +173,12 @@ Customers can:
 ## 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+## 🤝 Contributing
+
+We welcome contributions! Please **fork** the repository, make your changes, and **submit a pull request**.  
+Make sure to follow the contribution guidelines and write clean, well-documented code.
 
 ---
 ## 📧 Contact
