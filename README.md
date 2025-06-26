@@ -41,12 +41,12 @@ DocSpot is a full-stack healthcare appointment booking platform designed to simp
 
 | Layer      | Technology                |
 |------------|---------------------------|
-| Frontend   | React.js, Bootstrap, Material UI |
-| Backend    | Node.js, Express.js       |
+| Frontend   | React.js, Bootstrap |
+| Backend    | javascript       |
 | Database   | MongoDB                   |
 | APIs       | RESTful APIs using Axios  |
-| Date/Time  | Moment.js                 |
-| Tools      | Git, Postman, VS Code     |
+| Date/Time  | js                 |
+| Tools      | Git, VS Code     |
 
 ---
 ## ⚙️ Setup Instructions
