@@ -12,9 +12,10 @@ DocSpot is a full-stack healthcare appointment booking platform designed to simp
 
 ## 📸 Screenshots
 
-> *(Include relevant screenshots of user dashboard, doctor listing, booking form, admin panel, etc.)*
+> *(Here are the relevant screenshots of user dashboard, doctor listing, booking form, admin panel, etc.)*
 
----
+![Screenshot](https://github.com/user-attachments/assets/2f16f263-971a-4c7f-bbaa-0d989c4c97e0)
+
 
 ## 🧩 Features
 
@@ -48,7 +49,70 @@ DocSpot is a full-stack healthcare appointment booking platform designed to simp
 | Tools      | Git, Postman, VS Code     |
 
 ---
+## ⚙️ Setup Instructions
 
-## 📁 Folder Structure
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/docspot.git
+   cd docspot
+3. **Backend Setup**
+    ```bash
+      cd backend
+      npm install
+      npm run dev
+4. **Frontend Setup**
+     ```bash
+    cd ../frontend
+    npm install
+    npm start
+5. **MongoDB**
+    ```bash
+    MONGO_URI=mongodb://localhost:27017/docspot
+    PORT=5000
 
+    ---
+## 🔐 Roles & Access
 
+| **Role** | **Capabilities** |
+|----------|------------------|
+| **User** | Search, book, cancel appointments; manage profile |
+| **Doctor** | Confirm, reject, reschedule appointments; update availability |
+| **Admin** | Approve doctors, manage platform governance, monitor activity logs |
+
+---
+
+## 🔄 Project Flow
+
+1. **User Registration/Login**
+2. **Browse Doctors** → Filter by availability/specialty
+3. **Book Appointment** → Upload documents
+4. **Doctor Confirms** → User Notified
+5. **Appointment Conducted**
+6. **Post-visit Summary Sent**
+
+---
+## 🧠 Future Enhancements
+
+- 🔴 Real-time chat between doctor and patient  
+- 📲 Mobile App Integration using React Native  
+- 🧠 AI-based doctor recommendation engine  
+- 📆 Google Calendar sync for doctors  
+
+---
+## 🤝 Contributing
+
+We welcome contributions! Please **fork** the repository, make your changes, and **submit a pull request**.  
+Make sure to follow the contribution guidelines and write clean, well-documented code.
+
+---
+### 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+## 🙋‍♀️ Developed By
+
+**Meenakshi Cherukuri**  
+📧 [Maile Me..](cherukurimeenakshi555@gmail.com)  
+🔗 [LinkedIn Profile Link](https://www.linkedin.com/in/meenakshi-devi-cherukuri-439152281/)
