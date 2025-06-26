@@ -6,7 +6,7 @@ Developed as part of the **SmartBridge** program, this project aims to simplify 
 ---
 ## 🌐 Live Demo
 
-🚀 [Live Demo..](https://docspot-7jfw.onrender.com/)
+🚀 [Visit Project Live Demo here..](https://docspot-7jfw.onrender.com/)
 
 ---
 ## 📸 Screenshots
@@ -123,11 +123,15 @@ Customers can:
 
 ## 🚀 Future Improvements
 
-- Appointment slot management
-- Notification system (SMS/Email)
-- Admin analytics dashboard
-- PDF summary for appointments
-- Chat or review system
+- 🔴 Real-time chat between doctor and patient  
+- 📲 Mobile App Integration using React Native  
+- 🧠 AI-based doctor recommendation engine  
+- 📆 Google Calendar sync for doctors  
+- 🗓️ Appointment Slot Management
+- 📩 Notification System (SMS/Email)
+- 📊 Admin Analytics Dashboard
+- 📄 PDF Summary for Appointments
+- 💬 Chat or Review System
 
 ---
 
@@ -166,6 +170,14 @@ Customers can:
 - **MongoDB**, **Express**, **Node.js**, and for technology inspiration
 
 ---
+
+## 🤝 Contributing
+
+We welcome contributions! Please **fork** the repository, make your changes, and **submit a pull request**.  
+Make sure to follow the contribution guidelines and write clean, well-documented code.
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
