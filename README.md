@@ -1,7 +1,6 @@
 # 🏥 DocSpot: Seamless Appointment Booking for Health
 DocSpot is a full-stack web application that enables customers to book appointments with doctors, manage their bookings, and receive reminders. Doctors can manage their schedules, while admins can approve or reject doctor registrations.
 
-Developed as part of the **SmartBridge** program, this project aims to simplify and digitize healthcare appointment management.
 
 ---
 ## 🌐 Live Demo
@@ -181,8 +180,5 @@ We welcome contributions! Please **fork** the repository, make your changes, and
 Make sure to follow the contribution guidelines and write clean, well-documented code.
 
 ---
-## 📧 Contact
 
-Have questions or want to collaborate?  
-📬 Email:  [Mail me..](cherukurimeenakshi555@gmail.com)  
-🌐 GitHub: [MeenaCherukuri](https://github.com/MeenaCherukuri)
+
